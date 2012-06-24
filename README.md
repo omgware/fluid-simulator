@@ -31,6 +31,12 @@ http://www.youtube.com/watch?v=9bdH3mB2LdY
 You should be able to import the project directly into Eclipse and compile it without issues.
 
 
+- Android Platform
+
+If you wish to run this simulator on Android platform, you'll have to create and compile a new Android Project making use of LibGDX, and just import this project as the main.
+Make sure also to change the static variables within the main project source to make sure it works on Android without issues.
+
+
 - Run instructions:
 
 Make sure you have jre6+ installed, then:
