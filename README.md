@@ -2,6 +2,7 @@ fluid-simulator
 ===============
 
 Current revision: 1.0
+
 Author: Simone Autore (aka Sippolo)
 
 Viscoelastic fluid simulator in Java and OpenGL.
