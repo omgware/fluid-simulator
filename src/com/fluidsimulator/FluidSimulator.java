@@ -1,5 +1,6 @@
 package com.fluidsimulator;
 
+import java.awt.Toolkit;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -46,8 +47,8 @@ public class FluidSimulator implements Screen, InputProcessor {
 	public static final int wpadding = (IS_DESKTOP) ? 20 : 10;
 	public static final int hpadding = (IS_DESKTOP) ? 20 : 10;
 	public static final float collisionForce = (IS_DESKTOP) ? 0.3f : 0.1f;
-	public static final int SCREEN_WIDTH = (IS_DESKTOP) ? 1920 : 480;
-	public static final int SCREEN_HEIGHT = (IS_DESKTOP) ? 1080 : 320;
+	public static final int SCREEN_WIDTH = (IS_DESKTOP) ? (int)Toolkit.getDefaultToolkit().getScreenSize().getWidth() : 480;
+	public static final int SCREEN_HEIGHT = (IS_DESKTOP) ? (int)Toolkit.getDefaultToolkit().getScreenSize().getHeight() : 320;
 	protected SpriteBatch batch;
 	protected BitmapFont font;
 	protected OrthographicCamera camera;
