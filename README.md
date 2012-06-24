@@ -41,8 +41,18 @@ Note that the simulation is really faster and smoother on 64 bit environments, s
 
 - Commands
 
+Keyboard commands:
 When you start the simulator, you'll see instructions on the lower screen, with features followed by command key (within parenthesis) to activate them.
-On the bottom there are parameters which can be tuned up and down with respectively F1-F9 and 1-9 keys on the keyboard.
+F1-F9 and 1-9: on the bottom there are parameters which can be tuned up and down with respectively F1-F9 and 1-9 keys on the keyboard.
 Some simulation variables can be only tuned within the source code because they're statics, so you'll need to recompile the project in that case.
-To hide the "hud", just press H.
+H: hide the "hud".
+Backspace: clean everything and restart the simulator.
+
+Mouse commands:
+Left click WHILE moving the mouse: populate the screen with "drops" of fluid.
+Right click: Attracts drops towards mouse pointer.
+Middle click: Repulses drops outwards.
+Right click + Middle click: creates a sort of circular ring with drops around mouse pointer.
+Right click + Backspace: just remove the attracted drops around the mouse pointer.
+
 That should be all!
