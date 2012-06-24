@@ -1,6 +1,9 @@
 fluid-simulator
 ===============
 
+Current revision: 1.0
+Author: Simone Autore (aka Sippolo)
+
 Viscoelastic fluid simulator in Java and OpenGL.
 The software makes use of the most awesome cross-platform Java game/graphics development framework: LibGDX Framework.
 Here is a link to the official website: http://libgdx.badlogicgames.com/
