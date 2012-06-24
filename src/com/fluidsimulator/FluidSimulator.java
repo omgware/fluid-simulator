@@ -81,7 +81,7 @@ public class FluidSimulator implements Screen, InputProcessor {
 	public Iterator<Spring> springIter;
 	public ArrayList<Particle> disposableParticles;
 	public ArrayList<Particle> tempParticles;
-	// Most of these can be tuned at runtime with F1-F8 and keys 1-8 (no numpad)
+	// Most of these can be tuned at runtime with F1-F9 and keys 1-9 (no numpad)
 	public static int CELL_SIZE = 1;
 	public static float H = 20.0f;
 	public static float H2 = H * H;
