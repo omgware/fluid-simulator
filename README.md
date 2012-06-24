@@ -2,6 +2,7 @@ fluid-simulator
 ===============
 
 Current revision: 1.0
+
 Author: Simone Autore (aka Sippolo)
 
 
@@ -35,6 +36,7 @@ You should be able to import the project directly into Eclipse and compile it wi
 Make sure you have jre6+ installed, then:
 
 32 bit OS: just run the FluidSimulator.jar file within the project root directory.
+
 64 bit OS: please run this simulation on a 64bit jre by running the "FluidSimulator x64.bat" file, making sure to set the correct jre6+ x64 path within (just edit it with a plain text editor).
 Note that the simulation is really faster and smoother on 64 bit environments, so if you have one, for your best experience you really want to run it on jre6+ x64.
 
@@ -42,17 +44,26 @@ Note that the simulation is really faster and smoother on 64 bit environments, s
 - Commands
 
 Keyboard commands:
+
 When you start the simulator, you'll see instructions on the lower screen, with features followed by command key (within parenthesis) to activate them.
+
 F1-F9 and 1-9: on the bottom there are parameters which can be tuned up and down with respectively F1-F9 and 1-9 keys on the keyboard.
 Some simulation variables can be only tuned within the source code because they're statics, so you'll need to recompile the project in that case.
+
 H: hide the "hud".
+
 Backspace: clean everything and restart the simulator.
 
 Mouse commands:
+
 Left click WHILE moving the mouse: populate the screen with "drops" of fluid.
+
 Right click: Attracts drops towards mouse pointer.
+
 Middle click: Repulses drops outwards.
+
 Right click + Middle click: creates a sort of circular ring with drops around mouse pointer.
+
 Right click + Backspace: just remove the attracted drops around the mouse pointer.
 
 That should be all!
