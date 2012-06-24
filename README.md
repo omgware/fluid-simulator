@@ -14,6 +14,8 @@ Here is a link to the official website: http://libgdx.badlogicgames.com/
 
 Note that the simulation is rendered on one CPU only.
 
+BIG NOTE: currently the code could seem a bit messy, I didn't have time to make it pretty because of the huge testing I've been doing on it, so please forgive me for this ^^
+
 - Paper source:
 
 The simulation algorithm is inspired from the paper "Particle-based Viscoelastic Fluid Simulation" by Simon Clavet, Philippe Beaudoin, and Pierre Poulin, which can be found here: http://www.ligum.umontreal.ca/Clavet-2005-PVFS/pvfs.pdf
