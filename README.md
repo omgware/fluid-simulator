@@ -48,6 +48,8 @@ Make sure you have jre6+ installed, then:
 64 bit OS: please run this simulation on a 64bit jre by running the "FluidSimulator x64.bat" file, making sure to set the correct jre6+ x64 path within (just edit it with a plain text editor).
 Note that the simulation is really faster and smoother on 64 bit environments, so if you have one, for your best experience you really want to run it on jre6+ x64.
 
+Download Builds: you can find the zip file of the build in the Downloads section on this repository, just make sure you extract all the files before executing the jar/bat, otherwise it may not run at all.
+
 
 - Commands
 
